@@ -11,8 +11,9 @@ microservice:
   order-service:
     endpoints:
       endpoint:
-        uri: http://ORDER-SERVICE/order/make-order
+        uri: http://order-service/order/make-order
   payment-service:
     endpoints:
       endpoint:
-        uri: http://PAYMENT-SERVICE/payment/do-payment
+        uri: http://payment-service/payment/do-payment
+
